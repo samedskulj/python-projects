@@ -20,7 +20,7 @@ def main():
     """Main function to run the script."""
     if len(sys.argv) < 2:
         print("Please provide a YouTube URL as an argument")
-        print("Usage: python script.py <youtube_url>")
+        print("Usage: python youtube-thumbnails.py <youtube_url>")
         return
     
     url = sys.argv[1]
